@@ -9,9 +9,11 @@ import org.redisson.config.Config;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * redis缓存服务
+ *
  * @author liangzi on 2021/6/3
  */
-public class RedisCacheServiceImpl implements CacheService {
+public class RedisCacheService implements CacheService {
 
     private RedissonClient redissonClient;
 
