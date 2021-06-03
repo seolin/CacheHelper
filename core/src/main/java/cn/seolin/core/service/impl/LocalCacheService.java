@@ -9,7 +9,7 @@ import com.google.common.cache.CacheBuilder;
  *
  * @author liangzi on 2021/6/3
  */
-public class LocalCacheServiceImpl implements CacheService {
+public class LocalCacheService implements CacheService {
     private static Cache<String, String> localCache = null;
 
     @Override
