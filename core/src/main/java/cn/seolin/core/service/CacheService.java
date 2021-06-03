@@ -23,4 +23,9 @@ public interface CacheService {
      * @return 缓存内容
      */
     String getCache(String key);
+
+    /**
+     * 初始化
+     */
+    void init();
 }

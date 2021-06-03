@@ -15,4 +15,9 @@ public class RedisCacheServiceImpl implements CacheService {
     public String getCache(String key) {
         return null;
     }
+
+    @Override
+    public void init() {
+
+    }
 }
