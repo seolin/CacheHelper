@@ -20,6 +20,8 @@
         <redisson.version>3.13.2</redisson.version>
         <!--        <redisson.version>3.15.5</redisson.version>-->
         <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
+        <aspectjrt.version>1.8.10</aspectjrt.version>
+        <fastjson.version>1.2.74</fastjson.version>
     </properties>
 
     <dependencyManagement>
@@ -40,6 +42,16 @@
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjrt</artifactId>
+                <version>${aspectjrt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
